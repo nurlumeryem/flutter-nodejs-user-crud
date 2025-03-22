@@ -88,6 +88,17 @@ class _UserListPageState extends State<UserListPage> {
               ),
             ),
             const SizedBox(height: 20),
+            if (_users.isNotEmpty)
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 8),
+                child: Text(
+                  "👥 Toplam kullanıcı: ${_users.length}",
+                  style: theme.textTheme.titleSmall?.copyWith(
+                    fontWeight: FontWeight.w600,
+                    color: Colors.deepPurple,
+                  ),
+                ),
+              ),
             Expanded(
               child: _users.isEmpty
                   ? Center(
