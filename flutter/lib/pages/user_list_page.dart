@@ -133,6 +133,15 @@ class _UserListPageState extends State<UserListPage> {
                               user.name,
                               style: theme.textTheme.titleMedium,
                             ),
+                            trailing: IconButton(
+                              icon: const Icon(Icons.delete,
+                                  color: Colors.purple),
+                              onPressed: () {
+                                setState(() {
+                                  _users.removeAt(index);
+                                });
+                              },
+                            ),
                           ),
                         );
                       },
