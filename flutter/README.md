@@ -1,16 +1,17 @@
 # user_app
 
-A new Flutter project.
+# 👩‍💻 Flutter + Node.js Fullstack CRUD Uygulaması
 
-## Getting Started
+Bu proje, Flutter frontend'i ile Node.js (Express.js) backend'ini birleştirerek basit bir kullanıcı CRUD (Create, Read, Update, Delete) uygulaması oluşturur. Tamamen eğitim amaçlı olup, fullstack geliştirme mantığını kavramak isteyen geliştiriciler için örnek teşkil eder.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Özellikler
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✅ Flutter ile kullanıcı dostu arayüz  
+✅ Node.js + Express.js ile basit API servisi  
+✅ GET & POST işlemleriyle kullanıcı listeleme ve ekleme  
+✅ Localhost üzerinden istek yönetimi  
+✅ Mobil emülatör ile test edilebilir
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
