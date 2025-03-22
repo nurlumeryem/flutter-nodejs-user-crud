@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 
 let users = [
     { id: 1, name: "Ahmet" },
-    { id: 2, name: "Ayşe" },
+    { id: 2, name: "Meryem" },
 ];
 
 app.get("/users", (req, res) => {
