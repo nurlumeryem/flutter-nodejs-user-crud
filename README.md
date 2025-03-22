@@ -26,15 +26,18 @@ Bu projede Flutter ile mobil arayüz, Node.js + Express ile backend geliştirdim
 
 ## 🚀 Projeyi Çalıştırma
 
-### Flutter tarafı:
-```bash
+📱 Flutter Tarafı
 cd flutter
 flutter pub get
 flutter run
 
-### Node.js tarafı::
+🧠 Node.js Tarafı
 cd backend
 npm install
 node index.js
+
+
+
+
 
 
